@@ -169,15 +169,22 @@ nav a:hover {
     margin-left:1%;
     margin-top: .5em;
 }
-.block-1-3 a img, .block-1-3-1 a img{
+.block-1-3 a img,
+.block-1-3-1 a img{
     display:block;
     width:100%;
 }
-.block-1-3 a.large-button{
+.block-1-3 a.large-button,
+.block-1-3-1 a.large-button{
     height:330px;
 }
-.block-1-3 a.small-button{
+.block-1-3 a.small-button,
+.block-1-3-1 a.small-button{
     height:165px;
+}
+.block-1-3 a.ui-btn span.ui-btn-inner,
+.block-1-3-1 a.ui-btn span.ui-btn-inner{
+    padding:0;
 }
 .block-1-3.ui-grid-a img.main-logo{
     width:56%;
